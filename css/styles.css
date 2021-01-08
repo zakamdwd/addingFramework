@@ -19,6 +19,7 @@ font-size: 2.5rem;
 .nav-link{
   font-size: 1.2rem;
   font-weight: lighter;
+  
 }
 
 #title { background-color: #ff4c68;
@@ -59,6 +60,7 @@ p{
   transform: rotate(25deg);
 height: 500px;
 margin: 5%;
+margin-left: 50px;
   position: absolute;
 
 }
@@ -171,8 +173,7 @@ font-size: 1.2rem;
 
 }
 /* media quary */
-@media (max-width:500px ){
- /* the value 766 was found using inspect at which pixel images goes down */
+@media (max-width:766px ){
   #iphoneImage{
     position: static;
     transform: rotate(0);
