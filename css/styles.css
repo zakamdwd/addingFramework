@@ -171,7 +171,7 @@ font-size: 1.2rem;
 
 }
 /* media quary */
-@media (max-width:766px ){
+@media (max-width:500px ){
  /* the value 766 was found using inspect at which pixel images goes down */
   #iphoneImage{
     position: static;
