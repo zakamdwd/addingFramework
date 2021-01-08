@@ -1,0 +1,207 @@
+body{
+font-family: Montserrat;
+
+
+}
+/* navigation bar */
+.navbar-brand{
+font-family: 'Ubuntu', sans-serif;
+font-size: 2.5rem;
+}
+.navbar{
+  padding-bottom: 4.5rem;
+  padding-left: 0;
+}
+.nav-item{
+  padding-left: 18px;
+  padding-right: 18px;
+}
+.nav-link{
+  font-size: 1.2rem;
+  font-weight: lighter;
+}
+
+#title { background-color: #ff4c68;
+
+}
+
+
+ h1
+{
+
+font-size: 3.5rem;
+line-height: 1.5;
+font-style: normal;
+color: white;
+
+}
+/* testimonial */
+h2{
+
+}
+/* features */
+h3{
+  font-weight: bold;
+}
+p{
+  color: #8f8f8f;
+}
+
+.container-fluid{
+  padding-left: 15%;
+  padding-right: 15%;
+  /* background-color: skyblue; */
+  padding-bottom: 30px;
+
+}
+
+#iphoneImage{
+  transform: rotate(25deg);
+height: 500px;
+margin: 5%;
+  position: absolute;
+
+}
+
+/* downloadbutton */
+.download-button-this-is-custome-class{
+  margin: 5% 3% 5% 0;
+}
+
+
+/* features */
+#features{
+
+  padding-left: 15%;
+  padding-right: 15%;
+  padding-top: -100px;
+  padding-bottom: 100px;
+  position:relative;
+  background-color: #fff;
+  z-index: 1;
+
+}
+/* three icon including text */
+  .feature-myclass{
+    text-align: center;
+padding:5%;
+font-size: 1.2rem;
+}
+
+.icon-myclass{
+  /* color:#FA70D2; */
+  /* color: #E66FB7; */
+  color: #ef8172;
+  padding-bottom: 5px;
+
+}
+.icon-myclass:hover{
+  color: #ff4c68;
+
+}
+
+/* testimonial */
+#testimonials{
+  text-align: center;
+  background-color: #ef8172;
+  padding-bottom: 80px;
+}
+
+.testimonial-image{
+  width: 10%;
+  border-radius: 100%;
+  /* padding-bottom: 80px; */
+  margin-bottom: 80px;
+}
+
+.testimonial-text{
+  padding-left: 15%;
+  padding-right: 15%;
+  padding-top: 50px;
+  padding-bottom: 80px;
+  padding-top: 90px;
+  font-weight: bold;
+}
+
+/* press company log */
+#press{
+  background-color: #ef8172;
+  text-align: center;
+  padding-left: 15%;
+  padding-right: 15%;
+
+}
+
+.company-logo-testimonial{
+  width: 20%;
+  padding-bottom: 100px;
+}
+
+#facility{
+  margin-bottom: 0;
+}
+/* pricing */
+#pricing{
+  padding: 100px;
+}
+
+.card-header{
+  text-align: center;
+}
+.card-body{
+  text-align: center;
+}
+.chargesPerMonth{
+  text-align: center;
+}
+
+.signUpButton1{
+  margin-top: 20px;
+  /* background-color: white; */
+
+}
+.signUpButton2{
+  margin-top: 44px;
+  /* background-color: white; */
+
+}
+.signUpButton3{
+  margin-top: 44px;
+  /* background-color: white; */
+
+}
+/* media quary */
+@media (max-width:766px ){
+ /* the value 766 was found using inspect at which pixel images goes down */
+  #iphoneImage{
+    position: static;
+    transform: rotate(0);
+  }
+#title{
+  text-align: center;
+}
+}
+#cta{
+  margin-top:50px;
+  text-align: center;
+  background-color: #ff4c68;
+  padding-top: 100px;
+  padding-bottom: 40px;
+
+}
+#callToAction{
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-style: normal;
+  color: white;
+}
+.Bottom-download-button-this-is-custome-class{
+  margin: 5% 3% 5% 0;
+}
+/* footer */
+#footer{
+  text-align: center;
+  margin-top: 80px;
+  margin-bottom: 30px;
+
+}
