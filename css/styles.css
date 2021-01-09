@@ -19,7 +19,7 @@ font-size: 2.5rem;
 .nav-link{
   font-size: 1.2rem;
   font-weight: lighter;
-  
+
 }
 
 #title { background-color: #ff4c68;
@@ -172,16 +172,7 @@ font-size: 1.2rem;
   /* background-color: white; */
 
 }
-/* media quary */
-@media (max-width:766px ){
-  #iphoneImage{
-    position: static;
-    transform: rotate(0);
-  }
-#title{
-  text-align: center;
-}
-}
+
 #cta{
   margin-top:50px;
   text-align: center;
@@ -205,4 +196,15 @@ font-size: 1.2rem;
   margin-top: 80px;
   margin-bottom: 30px;
 
+}
+
+/* media quary */
+@media (max-width:766px ){
+  #iphoneImage{
+    position: static;
+    transform: rotate(0);
+  }
+#title{
+  text-align: center;
+}
 }
