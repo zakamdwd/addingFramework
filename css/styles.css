@@ -199,7 +199,7 @@ font-size: 1.2rem;
 }
 
 /* media quary */
-@media (max-width:766px ){
+@media screen and (max-width:766px ){
   #iphoneImage{
     position: static;
     transform: rotate(0);
