@@ -205,13 +205,15 @@ font-size: 1.2rem;
   #iphoneImage{
     position: static;
     transform: rotate(0);
+    padding-left:0;
     text-align:center;
+    
   }
 #title{
   text-align: center; 
-  font
+  
 }
   .title-heading{
-font-weight:500;
+font-weight:200;
 }
 }
