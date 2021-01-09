@@ -25,7 +25,9 @@ font-size: 2.5rem;
 #title { background-color: #ff4c68;
 
 }
-
+.title-heading{
+font-weight:900;
+}
 
  h1
 {
@@ -203,8 +205,13 @@ font-size: 1.2rem;
   #iphoneImage{
     position: static;
     transform: rotate(0);
+    text-align:center;
   }
 #title{
   text-align: center; 
+  font
+}
+  .title-heading{
+font-weight:500;
 }
 }
